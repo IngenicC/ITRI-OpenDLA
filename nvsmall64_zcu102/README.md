@@ -3,7 +3,7 @@
 
 64-MAC DLA implementation on the Xilinx ZCU102 Board. 
 
-The project is based on Zynq UltraScale MPSoC Base TRD 2017.4
+The project is based on Zynq UltraScale MPSoC Base TRD 2017.4. Default DLA frequency is set to 150 MHz.
 
 DEV References: 
 

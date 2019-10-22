@@ -3,7 +3,7 @@
 
 64-MAC DLA implementation on the Xilinx ZCU104 Board. 
 
-This project is based on Xilinx ZCU104 V2 BSP.
+This project is based on Xilinx ZCU104 V2 BSP. Default DLA frequency is set to 100 MHz.
 
 DEV References: 
 
