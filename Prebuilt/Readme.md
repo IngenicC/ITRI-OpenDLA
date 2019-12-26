@@ -48,7 +48,7 @@
 
     * The system image is about 5GB after compression.
 
-    * Or, you may send your request to scluo@itri.org.tw, with following info.
+    * You may send your request to scluo@itri.org.tw, with following info.
 
       *  Email title: 【Try DLA】YourID 
       *  Email contents: 
