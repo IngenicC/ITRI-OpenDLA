@@ -1,11 +1,14 @@
-# File structure
+# NV_small RTL Simulation Set
+This simulation set is requested by [**TSRI**](https://www.tsri.org.tw/main.jsp) for research purpose. 
+  
+## File structure
 - itri_tb: test bench
 - outdir: generated DLA RTL code
 - small_rams: SRAM model used by DLA
 - verif: nvdla native test bench & test scripts
 - run_nv_small
 
-# Pre-requirement
+## Pre-requirement
 EDA tools:
 - ncverilog
 - PLI 2.0 (included in verdi)
@@ -17,13 +20,13 @@ Path setting for EDA tools:
 
       +loadpli1=(VERDI_PATH)/share/PLI/IUS/LINUX/boot/debpli.so:novas_pli_boot
 
-# Simulation
+## Simulation
 
 nvdla_hw_sim>**cd run_small**
 
 nvdla_hw_sim/run_small>**source ../itri_tb/run_itri_test nv_small *TEST_SCRIPT***
 
-# List of test scripts
+## List of test scripts
 Test scripts are placed under the following directory:
 
 **nvdla_hw_sim/verif/tests/trace_tests/nv_small/**
