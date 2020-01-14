@@ -1,0 +1,12 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= +v2k -sverilog -full64 -q -work DEFAULT
+
+all :		_VCSgd_MB6Gic_1.db \
+
+
+
+_VCSgd_MB6Gic_1.db :	/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/nvdla_top_sc_adapter/nvdla_top_sc_adapter.v 
+		${VLOGAN}  ${VLOGAN_OPT} /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/nvdla_top_sc_adapter/nvdla_top_sc_adapter.v
+
+

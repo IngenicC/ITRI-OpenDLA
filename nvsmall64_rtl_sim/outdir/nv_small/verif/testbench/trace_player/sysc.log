@@ -1,0 +1,831 @@
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_dbb_scsv_extension_packer' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+gmake[1]: Warning: File `Makefile' has modification time 1.3e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File `stublist' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `uvmc.d' has modification time 1.2e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.2e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_scsv_converter.d' has modification time 1.2e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_top_sc_layer.d' has modification time 1.2e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `log.d' has modification time 1.2e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.2e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_dbb_scsv_extension_packer' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include/NV_nvdla.h' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 7.5e+02 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `nvdla_top_sc_adapter.d' has modification time 7.5e+02 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_dbb_scsv_extension_packer' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include/NV_nvdla.h' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -l sysc.log -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE  -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -Mdir=csrc
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -l 'sysc.log' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' '-Mdir=csrc'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[1]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_dbb_scsv_extension_packer' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[1]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[1]: Warning: File `/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include/NV_nvdla.h' has modification time 1.4e+03 s in the future
+Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Compiling nvdla_top_sc_adapter_vcs.cpp
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc/uvmc.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.uvmc' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_dbb_scsv_extension_packer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `nvdla_dbb_scsv_extension_packer.d' has modification time 1.3e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_scsv_converter' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_layer.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.nvdla_top_sc_layer' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/log.cpp' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+gmake[2]: Warning: File `Makefile.log' has modification time 1.4e+03 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+## syscan command line arguments:  -sysc=230 -V -work DEFAULT -full64 -cc /home/kcchang/gcc-4.8.3/DEST/bin/gcc -cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++ -tlm2 -sysc=opt_if -cflags -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -Mdir=csrc /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter -l sysc.log
+## syscan command line
+syscan  -sysc=230 -V -work 'DEFAULT' -full64 -cc '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' -cpp '/home/kcchang/gcc-4.8.3/DEST/bin/g++' -tlm2 '-sysc=opt_if' -sysc=opt_if -cflags '-D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc' '-Mdir=csrc' '/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp:nvdla_top_sc_adapter' -l 'sysc.log'
+
+Note-[SC-SYSCAN-USE-CC] Using C-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/gcc' C-compiler for C compilation.
+
+
+Note-[SC-SYSCAN-USE-CPP] Using C++-compiler
+  Using '/home/kcchang/gcc-4.8.3/DEST/bin/g++' C++-compiler for C++ 
+  compilation.
+
+Analyzing the interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp
+Interface of /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.cpp didn't change.
+gmake[2]: Warning: File `nvdla_top_sc_adapter.d' has modification time 1.3e+03 s in the future
+gmake[2]: Nothing to be done for `all'.
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.

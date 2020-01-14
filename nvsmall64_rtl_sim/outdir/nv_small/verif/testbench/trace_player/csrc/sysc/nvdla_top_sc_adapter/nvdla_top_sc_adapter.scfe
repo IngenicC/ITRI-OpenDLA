@@ -1,0 +1,56 @@
+1.0.0
+@M
+scsim::cmod::NV_nvdla
+no_filename_available
+0
+0
+1
+0
+0
+0
+@M
+nvdla_top_sc_layer
+no_filename_available
+0
+0
+1
+0
+0
+0
+@M
+nvdla_top_sc_adapter
+/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.h
+30
+30
+1
+0
+0
+1
+@P
+nvdla_top_sc2sv_nvdla_intr
+sc_core::sc_out<bool>
+sc_core::sc_out<bool>
+0
+0
+/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.h
+34
+34
+sc_core::sc_signal_inout_if<T>
+@D
+nvdla_top_sc_inst
+scsim::cmod::NV_nvdla *
+scsim::cmod::NV_nvdla *
+0
+0
+/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.h
+38
+38
+@D
+nvdla_top_sc_layer_inst
+nvdla_top_sc_layer *
+nvdla_top_sc_layer *
+0
+0
+/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc/nvdla_top_sc_adapter.h
+41
+41

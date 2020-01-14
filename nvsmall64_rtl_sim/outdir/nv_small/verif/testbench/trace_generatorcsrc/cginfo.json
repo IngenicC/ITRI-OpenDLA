@@ -1,0 +1,352 @@
+{
+    "NameTable": {
+        "_vcs_DPI_package": [
+            "_vcs_DPI_package",
+            "uM9F1",
+            "module"
+        ],
+        "nvdla_resource_pkg": [
+            "nvdla_resource_pkg",
+            "LLLRf",
+            "module"
+        ],
+        "$dummyOvSvModule": [
+            "0x24dummyOvSvModule",
+            "QAfa9",
+            "module"
+        ],
+        "csb_interface": [
+            "csb_interface",
+            "BiPSj",
+            "module"
+        ],
+        "nvdla_coverage_pkg": [
+            "nvdla_coverage_pkg",
+            "hr2J7",
+            "module"
+        ],
+        "vcs_paramclassrepository": [
+            "vcs_paramclassrepository",
+            "hEeZs",
+            "module"
+        ],
+        "_vcs_unit__2328712441": [
+            "_vcs_unit__2328712441",
+            "UJbge",
+            "module"
+        ],
+        "csb_pkg": [
+            "csb_pkg",
+            "T2Tj4",
+            "module"
+        ],
+        "uvm_pkg": [
+            "uvm_pkg",
+            "zr7M1",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "mem_man_pkg": [
+            "mem_man_pkg",
+            "svLpx",
+            "module"
+        ],
+        "nvdla_tg_top": [
+            "nvdla_tg_top",
+            "VEbNQ",
+            "module"
+        ],
+        "surface_generator_pkg": [
+            "surface_generator_pkg",
+            "JL0AA",
+            "module"
+        ],
+        "ordt_uvm_reg_pkg": [
+            "ordt_uvm_reg_pkg",
+            "L5Fv3",
+            "module"
+        ],
+        "nvdla_ral_pkg": [
+            "nvdla_ral_pkg",
+            "vNgGy",
+            "module"
+        ],
+        "nvdla_scenario_pkg": [
+            "nvdla_scenario_pkg",
+            "jwQbS",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "MlibObjs": {},
+    "PEModules": [],
+    "PrevCompiledModules": {
+        "nvdla_tg_top": {
+            "VEbNQ_d": {
+                "bytes": 8393,
+                "mode": 4,
+                "mod": "nvdla_tg_top",
+                "checksum": 0,
+                "out": "VEbNQ_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "mem_man_pkg": {
+            "svLpx_d": {
+                "bytes": 149286,
+                "mode": 4,
+                "mod": "mem_man_pkg",
+                "checksum": 0,
+                "out": "svLpx_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "surface_generator_pkg": {
+            "JL0AA_d": {
+                "bytes": 89598,
+                "mode": 4,
+                "mod": "surface_generator_pkg",
+                "checksum": 0,
+                "out": "JL0AA_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "ordt_uvm_reg_pkg": {
+            "L5Fv3_d": {
+                "bytes": 151344,
+                "mode": 4,
+                "mod": "ordt_uvm_reg_pkg",
+                "checksum": 0,
+                "out": "L5Fv3_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "csb_pkg": {
+            "T2Tj4_d": {
+                "bytes": 194810,
+                "mode": 4,
+                "mod": "csb_pkg",
+                "checksum": 0,
+                "out": "T2Tj4_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "uvm_pkg": {
+            "zr7M1_d": {
+                "bytes": 5459898,
+                "mode": 4,
+                "mod": "uvm_pkg",
+                "checksum": 0,
+                "out": "zr7M1_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "nvdla_resource_pkg": {
+            "LLLRf_d": {
+                "bytes": 6815923,
+                "mode": 4,
+                "mod": "nvdla_resource_pkg",
+                "checksum": 0,
+                "out": "LLLRf_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "nvdla_coverage_pkg": {
+            "hr2J7_d": {
+                "bytes": 700906,
+                "mode": 4,
+                "mod": "nvdla_coverage_pkg",
+                "checksum": 0,
+                "out": "hr2J7_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "$dummyOvSvModule": {
+            "QAfa9_d": {
+                "bytes": 6277,
+                "mode": 4,
+                "mod": "$dummyOvSvModule",
+                "checksum": 0,
+                "out": "QAfa9_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "csb_interface": {
+            "BiPSj_d": {
+                "bytes": 41588,
+                "mode": 4,
+                "mod": "csb_interface",
+                "checksum": 0,
+                "out": "BiPSj_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "vcs_paramclassrepository": {
+            "hEeZs_d": {
+                "bytes": 7092642,
+                "mode": 4,
+                "mod": "vcs_paramclassrepository",
+                "checksum": 0,
+                "out": "hEeZs_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 34226,
+                "mode": 4,
+                "mod": "std",
+                "checksum": 0,
+                "out": "reYIK_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "_vcs_unit__2328712441": {
+            "UJbge_d": {
+                "bytes": 1817019,
+                "mode": 4,
+                "mod": "_vcs_unit__2328712441",
+                "checksum": 0,
+                "out": "UJbge_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "_vcs_DPI_package": {
+            "uM9F1_d": {
+                "bytes": 9219,
+                "mode": 4,
+                "mod": "_vcs_DPI_package",
+                "checksum": 0,
+                "out": "uM9F1_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 9719,
+                "mode": 4,
+                "mod": "...MASTER...",
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        },
+        "nvdla_ral_pkg": {
+            "vNgGy_d": {
+                "bytes": 13102629,
+                "mode": 4,
+                "mod": "nvdla_ral_pkg",
+                "checksum": 0,
+                "out": "vNgGy_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        },
+        "nvdla_scenario_pkg": {
+            "jwQbS_d": {
+                "bytes": 666238,
+                "mode": 4,
+                "mod": "nvdla_scenario_pkg",
+                "checksum": 0,
+                "out": "jwQbS_d.o",
+                "archive": "archive.6/_prev_archive_1.a"
+            }
+        }
+    },
+    "CompileStatus": "Successful",
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "Frontend(%)": 84.962601569479403,
+        "ru_self_cgstart": {
+            "ru_nivcsw": 17189,
+            "ru_majflt": 0,
+            "ru_utime_sec": 25.901617999999999,
+            "ru_nvcsw": 983,
+            "ru_stime_sec": 1.0760670000000001,
+            "ru_minflt": 59483,
+            "ru_maxrss_kb": 236800
+        },
+        "peak_mem_kb": 397488,
+        "ru_childs_cgstart": {
+            "ru_nivcsw": 0,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_maxrss_kb": 0
+        },
+        "totalObjSize": 605818,
+        "nMops": 981378,
+        "mopSpeed": 214074.2933415818,
+        "ru_self_end": {
+            "ru_nivcsw": 18830,
+            "ru_majflt": 0,
+            "ru_utime_sec": 30.485904999999999,
+            "ru_nvcsw": 1150,
+            "ru_stime_sec": 1.1720729999999999,
+            "ru_minflt": 89663,
+            "ru_maxrss_kb": 236800
+        },
+        "ru_childs_end": {
+            "ru_nivcsw": 74,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 17,
+            "ru_stime_sec": 0.0040000000000000001,
+            "ru_minflt": 630,
+            "ru_maxrss_kb": 166084
+        },
+        "nQuads": 355612,
+        "quadSpeed": 77571.932123795923,
+        "mop/quad": 2.7596875246054688,
+        "outputSizePerQuad": 1.0,
+        "CodeGen(%)": 15.037398430520597
+    },
+    "CompileProcesses": [
+        "cgproc.30894.json"
+    ],
+    "SIMBData": {
+        "archive": "archive.6/_30894_archive_1.a",
+        "out": "amcQwB.o",
+        "bytes": 605818
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "vcs_paramclassrepository",
+        "$dummyOvSvModule",
+        "_vcs_DPI_package",
+        "_vcs_unit__2328712441",
+        "std",
+        "uvm_pkg",
+        "mem_man_pkg",
+        "surface_generator_pkg",
+        "ordt_uvm_reg_pkg",
+        "nvdla_ral_pkg",
+        "csb_interface",
+        "csb_pkg",
+        "nvdla_coverage_pkg",
+        "nvdla_resource_pkg",
+        "nvdla_scenario_pkg",
+        "nvdla_tg_top"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/home/kcchang/nvdla_master/hw/verif/testbench/trace_generator",
+        "csrc": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc",
+        "archive_dir": "archive.6",
+        "default_output_dir": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc",
+        "csrc_abs": "/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_generatorcsrc",
+        "daidir_abs": "/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_generator/simv.daidir",
+        "daidir": "/home/kcchang/nvdla_master/hw/verif/testbench/trace_generator/../../../outdir/nv_small/verif/testbench/trace_generator/simv.daidir"
+    }
+}

@@ -1,0 +1,33 @@
+SYSC_MODULE = nvdla_scsv_converter
+V = @
+CXX = /home/kcchang/gcc-4.8.3/DEST/bin/g++
+CXXFLAGS =  -D__STDC_FORMAT_MACROS -DNVDLA_REFERENCE_MODEL_ENABLE -DUVMC_MAX_WORDS=2048 -DVCS -I/home/kcchang/nvdla_master/hw/third_party_tools/uvmc-2.3.0/src/connect/sc -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_cmod_wrap/release/include -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc -I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_top_scsv_adapter/sc -DVCSSYSTEMC=1  -MMD -m64 -fPIC
+INCLUDES = \
+	-I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc \
+	-I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/include \
+	-I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 \
+	-I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23 \
+	-I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23/include/tlm \
+	-I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/etc/systemc/tlm/tli \
+	-I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23/examples/tlm/common/include \
+	-Iinclude \
+	-I$(VCS_HOME)/lib \
+	-I$(VCS_HOME)/include \
+	-I$(VCS_HOME)/include/cosim/bf \
+	-I$(SNPS_SIM_OVRD)/include \
+	-I/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player
+
+OBJS = nvdla_scsv_converter.o
+
+module-nvdla_scsv_converter:	$(OBJS)
+nvdla_scsv_converter.o:
+	@echo "Compiling /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp"
+	@rm -f nvdla_scsv_converter.o
+	@$(MAKE) -f Makefile_shared clean
+	$(V) $(CXX) $(INCLUDES) $(CXXFLAGS) -c /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/vip/reference_model/nvdla_scsv/sc/nvdla_scsv_converter.cpp -o $@ 
+
+clean:
+	$(V) rm -f nvdla_scsv_converter.o
+
+-include nvdla_scsv_converter.d
+

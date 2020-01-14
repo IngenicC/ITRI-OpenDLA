@@ -1,0 +1,65 @@
+ANA tlm_home /cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include/systemc23
+ANA vcs_target_arch 64
+INTERFACE type hsopt
+VAR adjust_time 0
+VAR arch linux64
+VAR compiler_prefix gcc4
+VAR cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++
+VAR dep_lib 
+VAR donut 0
+VAR immediate_elab 1
+VAR mdir csrc
+VAR mlib 
+VAR new_sync 2
+VAR nodep 
+VAR output simv
+VAR pwd /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player
+VAR sdf_annotate 
+VAR shared 
+VAR sysc_as /usr/bin/as
+VAR sysc_cflags -I/home/kcchang/nvdla_master/hw/cmod/include -I/home/kcchang/nvdla_master/hw/cmod/include/nvdla_ness_header -I/home/kcchang/nvdla_master/hw/outdir/nv_small/spec/defs 
+VAR sysc_cpp /home/kcchang/gcc-4.8.3/DEST/bin/g++
+VAR sysc_debug 0
+VAR sysc_debug_option 
+VAR sysc_dlp_active 0
+VAR sysc_dpi_list 
+VAR sysc_gcc_version 4.8.3
+VAR sysc_has_dpi 0
+VAR sysc_has_dpi_sc2vlog 0
+VAR sysc_has_opt 1
+VAR sysc_has_pli 0
+VAR sysc_innovator 0
+VAR sysc_inout_found 0
+VAR sysc_inout_opt_if 0
+VAR sysc_link_shared 0
+VAR sysc_mode 64
+VAR sysc_multi_start 1
+VAR sysc_on_top 0
+VAR sysc_output simv
+VAR sysc_processsave 0
+VAR sysc_purify 0
+VAR sysc_q_flag 0
+VAR sysc_show_sc_main 0
+VAR sysc_sim_slave 0
+VAR sysc_skeleton 0
+VAR sysc_slave 
+VAR sysc_src_files_or_top 
+VAR sysc_timeres 
+VAR sysc_timeres_set 1
+VAR sysc_tli_f_cpp_stubs_file 
+VAR sysc_tlm2_found 1
+VAR sysc_top csrc/sysc/simv
+VAR sysc_uni_multi_top 0
+VAR sysc_uni_only 0
+VAR sysc_uni_phase 1
+VAR sysc_uni_scv_version 1.0p2
+VAR sysc_uni_stubs_file 
+VAR sysc_uni_test 0
+VAR sysc_uni_top csrc/sysc/simv
+VAR sysc_uni_top_found 0
+VAR sysc_uni_use_scv 0
+VAR sysc_version 230
+VAR top_module_name sYsTeMcToP
+VAR uni_elab_flow 1
+VAR vcs_image 0
+module VERILOG nvdla_top_sc_adapter

@@ -1,0 +1,2482 @@
+{
+    "rm_nvdla_top_pkg": [
+        "rm_nvdla_top_pkg",
+        "eVpcI",
+        "module"
+    ],
+    "NV_NVDLA_CDP_rdma": [
+        "NV_NVDLA_CDP_rdma",
+        "rHAwF",
+        "module"
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module"
+    ],
+    "NV_NVDLA_SDP_NRDMA_gate": [
+        "NV_NVDLA_SDP_NRDMA_gate",
+        "tk5Y7",
+        "module"
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module"
+    ],
+    "vram_RAMDP_80X14_GL_M2_E2_0000": [
+        "vram_RAMDP_80X14_GL_M2_E2_0000",
+        "N6FsR",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_wt": [
+        "NV_NVDLA_CDMA_wt",
+        "Ivp2e",
+        "module"
+    ],
+    "_vcs_unit__3920963373": [
+        "_vcs_unit__3920963373",
+        "MZgfY",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_cvt": [
+        "NV_NVDLA_CDMA_cvt",
+        "cjVuQ",
+        "module"
+    ],
+    "dbb_pkg": [
+        "dbb_pkg",
+        "Nzp26",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_lat_fifo_flopram_rwsa_4xNVDLA_PRIMARY_MEMIF_WIDTH": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_lat_fifo_flopram_rwsa_4xNVDLA_PRIMARY_MEMIF_WIDTH",
+        "aszne",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftrightsu_0000": [
+        "NV_NVDLA_HLS_shiftrightsu_0000",
+        "fyrGd",
+        "module"
+    ],
+    "NV_NVDLA_partition_o": [
+        "NV_NVDLA_partition_o",
+        "UQgAF",
+        "module"
+    ],
+    "nvdla_tools": [
+        "nvdla_tools",
+        "Q19PF",
+        "module"
+    ],
+    "p_STRICTSYNC3DOTM_C_PPP": [
+        "p_STRICTSYNC3DOTM_C_PPP",
+        "IHcsQ",
+        "module"
+    ],
+    "dp_interface": [
+        "dp_interface",
+        "uj6SH",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_CMD_fifo_flopram_rwsa_1x80": [
+        "NV_NVDLA_PDP_WDMA_CMD_fifo_flopram_rwsa_1x80",
+        "nUtIf",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_lat_fifo": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_lat_fifo",
+        "m2hm8",
+        "module"
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module"
+    ],
+    "NV_NVDLA_CDP_dp": [
+        "NV_NVDLA_CDP_dp",
+        "zsTIv",
+        "module"
+    ],
+    "nv_assert_no_x": [
+        "nv_assert_no_x",
+        "L3CbV",
+        "module"
+    ],
+    "mem_pkg": [
+        "mem_pkg",
+        "B3GI2",
+        "module"
+    ],
+    "NV_NVDLA_cacc": [
+        "NV_NVDLA_cacc",
+        "azUNv",
+        "module"
+    ],
+    "dp_pkg": [
+        "dp_pkg",
+        "iJZBb",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTIN_pipe_p3": [
+        "NV_NVDLA_CDP_DP_CVTIN_pipe_p3",
+        "SMbIV",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_128X18_GL_M2_D2": [
+        "RAM_BANK_RAMPDP_128X18_GL_M2_D2",
+        "hrM4W",
+        "module"
+    ],
+    "$dummyOvSvModule": [
+        "0x24dummyOvSvModule",
+        "QAfa9",
+        "module"
+    ],
+    "NV_NVDLA_PDP_core": [
+        "NV_NVDLA_PDP_core",
+        "cPvjS",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_active": [
+        "NV_NVDLA_CMAC_CORE_active",
+        "wYttI",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_unpack_0000": [
+        "NV_NVDLA_SDP_RDMA_unpack_0000",
+        "bLiiu",
+        "module"
+    ],
+    "NV_NVDLA_partition_m": [
+        "NV_NVDLA_partition_m",
+        "Czij2",
+        "module"
+    ],
+    "NV_NVDLA_cbuf": [
+        "NV_NVDLA_cbuf",
+        "yqMFV",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_EG_RO_cfifo_flopram_rwsa_4x2": [
+        "NV_NVDLA_SDP_RDMA_EG_RO_cfifo_flopram_rwsa_4x2",
+        "KQy27",
+        "module"
+    ],
+    "cc_interface_0000": [
+        "cc_interface_0000",
+        "GNSNL",
+        "module"
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_256X4_GL_M2_E2": [
+        "RAM_BANK_RAMDP_256X4_GL_M2_E2",
+        "VHGfs",
+        "module"
+    ],
+    "csb_interface": [
+        "csb_interface",
+        "BiPSj",
+        "module"
+    ],
+    "NV_NVDLA_sync3d_s": [
+        "NV_NVDLA_sync3d_s",
+        "R8z2U",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_bpt": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_bpt",
+        "Y5xFZ",
+        "module"
+    ],
+    "NV_NVDLA_cdp": [
+        "NV_NVDLA_cdp",
+        "zckf2",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_CMD_dfifo": [
+        "NV_NVDLA_SDP_WDMA_CMD_dfifo",
+        "RAsJA",
+        "module"
+    ],
+    "nvdla_tb_common_pkg": [
+        "nvdla_tb_common_pkg",
+        "Sbfwi",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000A": [
+        "ScanShareSel_JTAG_reg_ext_cg_000A",
+        "PAABB",
+        "module"
+    ],
+    "HLS_cdp_ocvt": [
+        "HLS_cdp_ocvt",
+        "KM3rQ",
+        "module"
+    ],
+    "nvdla_top_sv_interface": [
+        "nvdla_top_sv_interface",
+        "c2Avm",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_dma_mux": [
+        "NV_NVDLA_CDMA_dma_mux",
+        "yfrZj",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_bufferin_tp1": [
+        "NV_NVDLA_CDP_DP_bufferin_tp1",
+        "v3kM6",
+        "module"
+    ],
+    "NV_NVDLA_CACC_calculator": [
+        "NV_NVDLA_CACC_calculator",
+        "W4bYZ",
+        "module"
+    ],
+    "uvmc_pkg": [
+        "uvmc_pkg",
+        "RgJgB",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_80X9_GL_M2_E2": [
+        "RAM_BANK_RAMDP_80X9_GL_M2_E2",
+        "fMW3M",
+        "module"
+    ],
+    "nvdla_coverage_pkg": [
+        "nvdla_coverage_pkg",
+        "hr2J7",
+        "module"
+    ],
+    "dbb_interface": [
+        "dbb_interface",
+        "dgBFU",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_flopram_rwa_4x50": [
+        "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_flopram_rwa_4x50",
+        "LpHiW",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CORE_gate": [
+        "NV_NVDLA_SDP_CORE_gate",
+        "pHd4v",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_lat_fifo": [
+        "NV_NVDLA_PDP_RDMA_lat_fifo",
+        "KpPbs",
+        "module"
+    ],
+    "nv_ram_rws_256x7": [
+        "nv_ram_rws_256x7",
+        "LD077",
+        "module"
+    ],
+    "dbb_interface_0000": [
+        "dbb_interface_0000",
+        "mIpcx",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_ro_fifo": [
+        "NV_NVDLA_CDP_RDMA_ro_fifo",
+        "M7Jwq",
+        "module"
+    ],
+    "dbb_interface_wrapper": [
+        "dbb_interface_wrapper",
+        "HBRJS",
+        "module"
+    ],
+    "ordt_uvm_reg_pkg": [
+        "ordt_uvm_reg_pkg",
+        "L5Fv3",
+        "module"
+    ],
+    "nv_ram_rws_16x256_logic": [
+        "nv_ram_rws_16x256_logic",
+        "q4Dw0",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_CVT_CELL_pipe_p3": [
+        "NV_NVDLA_CDMA_CVT_CELL_pipe_p3",
+        "HG8Bd",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_INTP_unit": [
+        "NV_NVDLA_CDP_DP_INTP_unit",
+        "puFEg",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p4": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p4",
+        "JmGiZ",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_shared_buffer": [
+        "NV_NVDLA_CDMA_shared_buffer",
+        "n52Dc",
+        "module"
+    ],
+    "nvdla_ral_pkg": [
+        "nvdla_ral_pkg",
+        "vNgGy",
+        "module"
+    ],
+    "csb_pkg": [
+        "csb_pkg",
+        "T2Tj4",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_intpinfo_fifo": [
+        "NV_NVDLA_CDP_DP_intpinfo_fifo",
+        "HM6Kp",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000D": [
+        "ScanShareSel_JTAG_reg_ext_cg_000D",
+        "bIgLc",
+        "module"
+    ],
+    "NV_NVDLA_glb": [
+        "NV_NVDLA_glb",
+        "GUT7w",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_256X7_GL_M2_E2": [
+        "RAM_BANK_RAMDP_256X7_GL_M2_E2",
+        "fSHpe",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_intr": [
+        "NV_NVDLA_SDP_WDMA_intr",
+        "K6AmI",
+        "module"
+    ],
+    "nv_ram_rws_16x272_logic": [
+        "nv_ram_rws_16x272_logic",
+        "VsEYL",
+        "module"
+    ],
+    "NV_NVDLA_core_reset": [
+        "NV_NVDLA_core_reset",
+        "DyuFB",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_falcon2csb_fifo": [
+        "NV_NVDLA_CSB_MASTER_falcon2csb_fifo",
+        "rbGIe",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTOUT_pipe_p3": [
+        "NV_NVDLA_CDP_DP_CVTOUT_pipe_p3",
+        "SfgrS",
+        "module"
+    ],
+    "NV_NVDLA_GLB_csb": [
+        "NV_NVDLA_GLB_csb",
+        "Znhdi",
+        "module"
+    ],
+    "nvdla_scsv_pkg": [
+        "nvdla_scsv_pkg",
+        "dxIHi",
+        "module"
+    ],
+    "nvdla_top_sv_module_wrapper": [
+        "nvdla_top_sv_module_wrapper",
+        "PA671",
+        "module"
+    ],
+    "NV_NVDLA_cdma": [
+        "NV_NVDLA_cdma",
+        "n8SA5",
+        "module"
+    ],
+    "NV_NVDLA_SDP_reg": [
+        "NV_NVDLA_SDP_reg",
+        "YmGmP",
+        "module"
+    ],
+    "NV_BLKBOX_SRC0_X": [
+        "NV_BLKBOX_SRC0_X",
+        "q4kA1",
+        "module"
+    ],
+    "nvdla_top_scsv_pkg": [
+        "nvdla_top_scsv_pkg",
+        "kmBmM",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_CMD_sfifo_flopram_rwsa_4x13": [
+        "NV_NVDLA_SDP_MRDMA_EG_CMD_sfifo_flopram_rwsa_4x13",
+        "sSnmV",
+        "module"
+    ],
+    "dma_interface": [
+        "dma_interface",
+        "Yij0Y",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_ro_fifo": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_ro_fifo",
+        "CFH6v",
+        "module"
+    ],
+    "NV_NVDLA_GLB_ic": [
+        "NV_NVDLA_GLB_ic",
+        "z989m",
+        "module"
+    ],
+    "dma_pkg": [
+        "dma_pkg",
+        "sTjPw",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_gate": [
+        "NV_NVDLA_SDP_WDMA_gate",
+        "fKJKB",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_ro_fifo": [
+        "NV_NVDLA_PDP_RDMA_ro_fifo",
+        "vLUKG",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_DAT_fifo": [
+        "NV_NVDLA_PDP_WDMA_DAT_fifo",
+        "HS82P",
+        "module"
+    ],
+    "dp_interface_0000": [
+        "dp_interface_0000",
+        "IhYDL",
+        "module"
+    ],
+    "cc_interface": [
+        "cc_interface",
+        "eEgVR",
+        "module"
+    ],
+    "cc_pkg": [
+        "cc_pkg",
+        "udTNL",
+        "module"
+    ],
+    "cc_interface_0001": [
+        "cc_interface_0001",
+        "ECwrF",
+        "module"
+    ],
+    "NV_NVDLA_csb_master": [
+        "NV_NVDLA_csb_master",
+        "Sy306",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTIN_pipe_p1": [
+        "NV_NVDLA_CDP_DP_CVTIN_pipe_p1",
+        "ftbi0",
+        "module"
+    ],
+    "nvdla_tb_top": [
+        "nvdla_tb_top",
+        "GudUf",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_DAT_in": [
+        "NV_NVDLA_SDP_WDMA_DAT_in",
+        "ZtGgg",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_status": [
+        "NV_NVDLA_CDMA_status",
+        "hnISd",
+        "module"
+    ],
+    "HLS_cdp_OCVT_pipe_p1": [
+        "HLS_cdp_OCVT_pipe_p1",
+        "erFcK",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_CVT_CELL_pipe_p1": [
+        "NV_NVDLA_CDMA_CVT_CELL_pipe_p1",
+        "YMxdD",
+        "module"
+    ],
+    "nvdla_top_sc_adapter": [
+        "nvdla_top_sc_adapter",
+        "fyv8y",
+        "module"
+    ],
+    "NV_NVDLA_cfgrom": [
+        "NV_NVDLA_cfgrom",
+        "rUxJ1",
+        "module"
+    ],
+    "NV_NVDLA_partition_a": [
+        "NV_NVDLA_partition_a",
+        "HvYxn",
+        "module"
+    ],
+    "NV_NVDLA_CACC_assembly_ctrl": [
+        "NV_NVDLA_CACC_assembly_ctrl",
+        "I1deN",
+        "module"
+    ],
+    "NV_NVDLA_partition_c": [
+        "NV_NVDLA_partition_c",
+        "z8FjH",
+        "module"
+    ],
+    "RAMDP_8X66_GL_M1_E2": [
+        "RAMDP_8X66_GL_M1_E2",
+        "EeBBm",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_pipe_p1",
+        "cAeTz",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_eg": [
+        "NV_NVDLA_PDP_RDMA_eg",
+        "JJwBd",
+        "module"
+    ],
+    "NV_NVDLA_SDP_NRDMA_cq": [
+        "NV_NVDLA_SDP_NRDMA_cq",
+        "v3ms9",
+        "module"
+    ],
+    "NV_NVDLA_partition_p": [
+        "NV_NVDLA_partition_p",
+        "GTksN",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_cq": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_cq",
+        "YeCAr",
+        "module"
+    ],
+    "NV_NVDLA_PDP_CORE_cal1d": [
+        "NV_NVDLA_PDP_CORE_cal1d",
+        "zLBxw",
+        "module"
+    ],
+    "NV_NVDLA_PDP_slcg": [
+        "NV_NVDLA_PDP_slcg",
+        "jvj6U",
+        "module"
+    ],
+    "HLS_cdp_OCVT_pipe_p4": [
+        "HLS_cdp_OCVT_pipe_p4",
+        "ew8sP",
+        "module"
+    ],
+    "NV_NVDLA_CSC_wl": [
+        "NV_NVDLA_CSC_wl",
+        "qGsf1",
+        "module"
+    ],
+    "NV_NVDLA_csc": [
+        "NV_NVDLA_csc",
+        "SGiYV",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_csb2falcon_fifo": [
+        "NV_NVDLA_CSB_MASTER_csb2falcon_fifo",
+        "uvY8L",
+        "module"
+    ],
+    "NV_NVDLA_cmac": [
+        "NV_NVDLA_cmac",
+        "zzWnf",
+        "module"
+    ],
+    "RAMDP_80X15_GL_M2_E2": [
+        "RAMDP_80X15_GL_M2_E2",
+        "t4tDK",
+        "module"
+    ],
+    "NV_NVDLA_SDP_rdma": [
+        "NV_NVDLA_SDP_rdma",
+        "Dxh9K",
+        "module"
+    ],
+    "RAMPDP_160X16_GL_M2_D2": [
+        "RAMPDP_160X16_GL_M2_D2",
+        "ZARdR",
+        "module"
+    ],
+    "NV_NVDLA_sdp": [
+        "NV_NVDLA_sdp",
+        "iZwN4",
+        "module"
+    ],
+    "NV_NVDLA_PDP_nan": [
+        "NV_NVDLA_PDP_nan",
+        "QKpjR",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_info_fifo": [
+        "NV_NVDLA_CDP_DP_info_fifo",
+        "NDWZF",
+        "module"
+    ],
+    "NV_NVDLA_reset": [
+        "NV_NVDLA_reset",
+        "nnB0y",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_REG_dual": [
+        "NV_NVDLA_SDP_RDMA_REG_dual",
+        "v0eCz",
+        "module"
+    ],
+    "NV_NVDLA_sync3d": [
+        "NV_NVDLA_sync3d",
+        "sSCqz",
+        "module"
+    ],
+    "sync_reset": [
+        "sync_reset",
+        "NPFEd",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_DOUT_pipe_p1": [
+        "NV_NVDLA_SDP_MRDMA_EG_DOUT_pipe_p1",
+        "dVidZ",
+        "module"
+    ],
+    "NV_NVDLA_pdp": [
+        "NV_NVDLA_pdp",
+        "LWaIC",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_dram": [
+        "NV_NVDLA_NOCIF_dram",
+        "PEkBz",
+        "module"
+    ],
+    "nv_ram_rwsp_160x65": [
+        "nv_ram_rwsp_160x65",
+        "Kirzw",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_WT_8ATMM_fifo": [
+        "NV_NVDLA_CDMA_WT_8ATMM_fifo",
+        "zJp52",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_REG_single": [
+        "NV_NVDLA_CMAC_REG_single",
+        "cZrRe",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_dc": [
+        "NV_NVDLA_CDMA_dc",
+        "EdVxx",
+        "module"
+    ],
+    "vram_RAMDP_8X66_GL_M1_E2_0000": [
+        "vram_RAMDP_8X66_GL_M1_E2_0000",
+        "IGyjG",
+        "module"
+    ],
+    "NV_NVDLA_CDP_WDMA_dat_fifo": [
+        "NV_NVDLA_CDP_WDMA_dat_fifo",
+        "rQS9g",
+        "module"
+    ],
+    "NV_NVDLA_PDP_reg": [
+        "NV_NVDLA_PDP_reg",
+        "NrENE",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_img": [
+        "NV_NVDLA_CDMA_img",
+        "iWtzi",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_write": [
+        "NV_NVDLA_NOCIF_DRAM_write",
+        "xdA2K",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0010": [
+        "ScanShareSel_JTAG_reg_ext_cg_0010",
+        "MY2Fd",
+        "module"
+    ],
+    "NV_NVDLA_CDP_WDMA_dat_fifo_flopram_rwsa_8x8": [
+        "NV_NVDLA_CDP_WDMA_dat_fifo_flopram_rwsa_8x8",
+        "rfBky",
+        "module"
+    ],
+    "RAMPDP_128X18_GL_M2_D2_ram": [
+        "RAMPDP_128X18_GL_M2_D2_ram",
+        "U5qR7",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftleftsu": [
+        "NV_NVDLA_HLS_shiftleftsu",
+        "suhuV",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_regfile": [
+        "NV_NVDLA_CDMA_regfile",
+        "ZGVpd",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_CMD_sfifo": [
+        "NV_NVDLA_SDP_WDMA_CMD_sfifo",
+        "FGMew",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_slcg": [
+        "NV_NVDLA_CDMA_slcg",
+        "vuf3e",
+        "module"
+    ],
+    "NV_NVDLA_CSC_dl": [
+        "NV_NVDLA_CSC_dl",
+        "wChqC",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_cq": [
+        "NV_NVDLA_PDP_RDMA_cq",
+        "UKEsU",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_cvtout": [
+        "NV_NVDLA_CDP_DP_cvtout",
+        "LzPbt",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_REG_dual": [
+        "NV_NVDLA_CMAC_REG_dual",
+        "L3r0f",
+        "module"
+    ],
+    "NV_NVDLA_CSC_single_reg": [
+        "NV_NVDLA_CSC_single_reg",
+        "LsUeC",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_ig": [
+        "NV_NVDLA_CDP_RDMA_ig",
+        "Dabzb",
+        "module"
+    ],
+    "nv_ram_rwsthp_80x9_logic": [
+        "nv_ram_rwsthp_80x9_logic",
+        "tbyZH",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p3": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p3",
+        "UmTtx",
+        "module"
+    ],
+    "NV_NVDLA_CSC_regfile": [
+        "NV_NVDLA_CSC_regfile",
+        "E0PQb",
+        "module"
+    ],
+    "NV_NVDLA_DMAIF_rdreq": [
+        "NV_NVDLA_DMAIF_rdreq",
+        "hezb5",
+        "module"
+    ],
+    "NV_NVDLA_CSC_sg": [
+        "NV_NVDLA_CSC_sg",
+        "S7Hpb",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_single_reg": [
+        "NV_NVDLA_CDMA_single_reg",
+        "wdcbE",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_cvt": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_cvt",
+        "TDj3N",
+        "module"
+    ],
+    "NV_NVDLA_CSC_slcg": [
+        "NV_NVDLA_CSC_slcg",
+        "cMcnU",
+        "module"
+    ],
+    "NV_NVDLA_PDP_REG_dual": [
+        "NV_NVDLA_PDP_REG_dual",
+        "JuEKS",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_intp": [
+        "NV_NVDLA_CDP_DP_intp",
+        "fcMRf",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_gray_cntr_strict": [
+        "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_gray_cntr_strict",
+        "j5WP8",
+        "module"
+    ],
+    "NV_BLKBOX_SRC0": [
+        "NV_BLKBOX_SRC0",
+        "rzwI0",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_core": [
+        "NV_NVDLA_CMAC_core",
+        "xKgGq",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_dfifo_flopram_rwsa_5x66": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_dfifo_flopram_rwsa_5x66",
+        "y5tHI",
+        "module"
+    ],
+    "NV_NVDLA_PDP_rdma": [
+        "NV_NVDLA_PDP_rdma",
+        "mxhwH",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_reg": [
+        "NV_NVDLA_CMAC_reg",
+        "dGERG",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_DAT_fifo_flopram_rwsa_4x8": [
+        "NV_NVDLA_PDP_WDMA_DAT_fifo_flopram_rwsa_4x8",
+        "jRHLy",
+        "module"
+    ],
+    "NV_NVDLA_CACC_assembly_buffer": [
+        "NV_NVDLA_CACC_assembly_buffer",
+        "q6kEk",
+        "module"
+    ],
+    "NV_NVDLA_CACC_delivery_buffer": [
+        "NV_NVDLA_CACC_delivery_buffer",
+        "L02PC",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_sg2pack_fifo": [
+        "NV_NVDLA_CDMA_IMG_sg2pack_fifo",
+        "CWghs",
+        "module"
+    ],
+    "NV_NVDLA_CACC_delivery_ctrl": [
+        "NV_NVDLA_CACC_delivery_ctrl",
+        "NFhRQ",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_cmd": [
+        "NV_NVDLA_PDP_WDMA_cmd",
+        "t4AN1",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_INT_ALU_pipe_p1": [
+        "NV_NVDLA_SDP_HLS_X_INT_ALU_pipe_p1",
+        "ir4IZ",
+        "module"
+    ],
+    "NV_NVDLA_CDP_WDMA_intr_fifo": [
+        "NV_NVDLA_CDP_WDMA_intr_fifo",
+        "nCbCJ",
+        "module"
+    ],
+    "NV_NVDLA_CACC_regfile": [
+        "NV_NVDLA_CACC_regfile",
+        "gCk8Z",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_nan": [
+        "NV_NVDLA_CDP_DP_nan",
+        "eMuSN",
+        "module"
+    ],
+    "NV_NVDLA_CACC_slcg": [
+        "NV_NVDLA_CACC_slcg",
+        "P9krI",
+        "module"
+    ],
+    "NV_NVDLA_SDP_core": [
+        "NV_NVDLA_SDP_core",
+        "AtW5G",
+        "module"
+    ],
+    "RAMDP_256X4_GL_M2_E2": [
+        "RAMDP_256X4_GL_M2_E2",
+        "U8Ads",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CORE_pipe_p11": [
+        "NV_NVDLA_SDP_CORE_pipe_p11",
+        "gv3GY",
+        "module"
+    ],
+    "NV_NVDLA_SDP_wdma": [
+        "NV_NVDLA_SDP_wdma",
+        "Vv2K1",
+        "module"
+    ],
+    "RAMDP_128X11_GL_M2_E2": [
+        "RAMDP_128X11_GL_M2_E2",
+        "LdFs3",
+        "module"
+    ],
+    "RAMDP_256X8_GL_M2_E2": [
+        "RAMDP_256X8_GL_M2_E2",
+        "hQt5e",
+        "module"
+    ],
+    "sync3d": [
+        "sync3d",
+        "fbMIk",
+        "module"
+    ],
+    "NV_NVDLA_CDP_WDMA_cmd_fifo_flopram_rwsa_3x15": [
+        "NV_NVDLA_CDP_WDMA_cmd_fifo_flopram_rwsa_3x15",
+        "Yi9c0",
+        "module"
+    ],
+    "RANDFUNC": [
+        "RANDFUNC",
+        "mPsTB",
+        "module"
+    ],
+    "NV_NVDLA_CFGROM_rom": [
+        "NV_NVDLA_CFGROM_rom",
+        "ALuFR",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_dfifo_flopram_rwsa_4x66": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_dfifo_flopram_rwsa_4x66",
+        "PdsHm",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_flopram_rwa_2x34": [
+        "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_flopram_rwa_2x34",
+        "fR9m7",
+        "module"
+    ],
+    "nv_ram_rwsp_61x65": [
+        "nv_ram_rwsp_61x65",
+        "hYF7P",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_gray_cntr_strict": [
+        "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_gray_cntr_strict",
+        "HaqRj",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_LUT_ctrl": [
+        "NV_NVDLA_CDP_DP_LUT_ctrl",
+        "pq743",
+        "module"
+    ],
+    "MUX2HDD2": [
+        "MUX2HDD2",
+        "KKtQp",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_gray_cntr": [
+        "NV_NVDLA_CSB_MASTER_csb2falcon_fifo_gray_cntr",
+        "TIkfF",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0006": [
+        "ScanShareSel_JTAG_reg_ext_cg_0006",
+        "p4GkH",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_ARB_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_ARB_pipe_p1",
+        "arIS8",
+        "module"
+    ],
+    "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_gray_cntr": [
+        "NV_NVDLA_CSB_MASTER_falcon2csb_fifo_gray_cntr",
+        "Z59Qb",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_spt": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_spt",
+        "L8vst",
+        "module"
+    ],
+    "NV_NVDLA_MCIF_csb": [
+        "NV_NVDLA_MCIF_csb",
+        "YyY5B",
+        "module"
+    ],
+    "nv_ram_rwsp_8x65_logic": [
+        "nv_ram_rwsp_8x65_logic",
+        "w3INi",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_INT_ALU_pipe_p2": [
+        "NV_NVDLA_SDP_HLS_X_INT_ALU_pipe_p2",
+        "pj0Ye",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_read": [
+        "NV_NVDLA_NOCIF_DRAM_read",
+        "hxn90",
+        "module"
+    ],
+    "NV_NVDLA_SDP_mrdma": [
+        "NV_NVDLA_SDP_mrdma",
+        "PQ3rq",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_CMD_fifo": [
+        "NV_NVDLA_PDP_WDMA_CMD_fifo",
+        "d8xWa",
+        "module"
+    ],
+    "nv_ram_rws_256x64_logic": [
+        "nv_ram_rws_256x64_logic",
+        "CrzbL",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_cq": [
+        "NV_NVDLA_NOCIF_DRAM_READ_cq",
+        "cCBYG",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_dmaif": [
+        "NV_NVDLA_SDP_RDMA_dmaif",
+        "zG514",
+        "module"
+    ],
+    "NV_NVDLA_PDP_wdma": [
+        "NV_NVDLA_PDP_wdma",
+        "HWszB",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_gate": [
+        "NV_NVDLA_SDP_MRDMA_gate",
+        "pDW8Z",
+        "module"
+    ],
+    "sync3d_s_ppp": [
+        "sync3d_s_ppp",
+        "YsY7B",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_C_int": [
+        "NV_NVDLA_SDP_HLS_C_int",
+        "DMITa",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_intr_fifo": [
+        "NV_NVDLA_PDP_WDMA_intr_fifo",
+        "vVU2Y",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_reg": [
+        "NV_NVDLA_SDP_RDMA_reg",
+        "R4SPd",
+        "module"
+    ],
+    "NV_NVDLA_CACC_dual_reg": [
+        "NV_NVDLA_CACC_dual_reg",
+        "cF5hv",
+        "module"
+    ],
+    "NV_NVDLA_CDP_reg": [
+        "NV_NVDLA_CDP_reg",
+        "r7HwN",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTIN_pipe_p2": [
+        "NV_NVDLA_CDP_DP_CVTIN_pipe_p2",
+        "qy3rf",
+        "module"
+    ],
+    "NV_NVDLA_CDP_slcg": [
+        "NV_NVDLA_CDP_slcg",
+        "iiHFS",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_DAT_DMAIF_intr_fifo": [
+        "NV_NVDLA_SDP_WDMA_DAT_DMAIF_intr_fifo",
+        "tBCh7",
+        "module"
+    ],
+    "NV_NVDLA_CDP_wdma": [
+        "NV_NVDLA_CDP_wdma",
+        "HkLPY",
+        "module"
+    ],
+    "NV_NVDLA_PDP_CORE_cal2d": [
+        "NV_NVDLA_PDP_CORE_cal2d",
+        "kfL4J",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_CMD_sfifo": [
+        "NV_NVDLA_SDP_MRDMA_EG_CMD_sfifo",
+        "T0ZJu",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0003": [
+        "ScanShareSel_JTAG_reg_ext_cg_0003",
+        "PTcgi",
+        "module"
+    ],
+    "NV_NVDLA_CDP_WDMA_cmd_fifo": [
+        "NV_NVDLA_CDP_WDMA_cmd_fifo",
+        "r9Lpy",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_80X66_GL_M1_D2": [
+        "RAM_BANK_RAMPDP_80X66_GL_M1_D2",
+        "zNPQR",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_dfifo": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_dfifo",
+        "ZiM9b",
+        "module"
+    ],
+    "NV_NVDLA_SDP_BRDMA_cq": [
+        "NV_NVDLA_SDP_BRDMA_cq",
+        "uSMRj",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_pack_0000": [
+        "NV_NVDLA_SDP_RDMA_pack_0000",
+        "qqT49",
+        "module"
+    ],
+    "nv_ram_rws_256x64": [
+        "nv_ram_rws_256x64",
+        "bURRc",
+        "module"
+    ],
+    "NV_NVDLA_MCIF_CSB_reg": [
+        "NV_NVDLA_MCIF_CSB_reg",
+        "EyRqA",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_8X66_GL_M1_E2": [
+        "RAM_BANK_RAMDP_8X66_GL_M1_E2",
+        "pim5m",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_CVT_cell": [
+        "NV_NVDLA_CDMA_CVT_cell",
+        "s588F",
+        "module"
+    ],
+    "NV_NVDLA_CDP_REG_single": [
+        "NV_NVDLA_CDP_REG_single",
+        "Y2tEF",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_CVT_CELL_pipe_p2": [
+        "NV_NVDLA_CDMA_CVT_CELL_pipe_p2",
+        "zj7wq",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_DC_fifo": [
+        "NV_NVDLA_CDMA_DC_fifo",
+        "D3Ey7",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_ctrl": [
+        "NV_NVDLA_CDMA_IMG_ctrl",
+        "U5AS2",
+        "module"
+    ],
+    "nv_ram_rwsthp_60x21_logic": [
+        "nv_ram_rwsthp_60x21_logic",
+        "gW5aG",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_pack": [
+        "NV_NVDLA_CDMA_IMG_pack",
+        "V4Ltx",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_sg": [
+        "NV_NVDLA_CDMA_IMG_sg",
+        "MkMAQ",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_CMD_dfifo_flopram_rwsa_4x44": [
+        "NV_NVDLA_SDP_WDMA_CMD_dfifo_flopram_rwsa_4x44",
+        "uqHJ3",
+        "module"
+    ],
+    "SDFQD1": [
+        "SDFQD1",
+        "t72kk",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_WT_fifo": [
+        "NV_NVDLA_CDMA_WT_fifo",
+        "htHb8",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_dual_reg": [
+        "NV_NVDLA_CDMA_dual_reg",
+        "HF47e",
+        "module"
+    ],
+    "NV_NVDLA_SDP_brdma": [
+        "NV_NVDLA_SDP_brdma",
+        "qNayC",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_int_alu": [
+        "NV_NVDLA_SDP_HLS_X_int_alu",
+        "Tp6KV",
+        "module"
+    ],
+    "NV_NVDLA_CSC_SG_dat_fifo": [
+        "NV_NVDLA_CSC_SG_dat_fifo",
+        "G4TnN",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_ro_fifo_flopram_rwsa_8x8": [
+        "NV_NVDLA_CDP_RDMA_ro_fifo_flopram_rwsa_8x8",
+        "PV48T",
+        "module"
+    ],
+    "NV_NVDLA_CSC_SG_wt_fifo": [
+        "NV_NVDLA_CSC_SG_wt_fifo",
+        "YNdbj",
+        "module"
+    ],
+    "RAMPDP_256X64_GL_M2_D2_ram": [
+        "RAMPDP_256X64_GL_M2_D2_ram",
+        "d13s4",
+        "module"
+    ],
+    "NV_NVDLA_CSC_SG_dat_fifo_flopram_rwsa_4x33": [
+        "NV_NVDLA_CSC_SG_dat_fifo_flopram_rwsa_4x33",
+        "QhbsB",
+        "module"
+    ],
+    "NV_NVDLA_CSC_SG_wt_fifo_flopram_rwsa_4x20": [
+        "NV_NVDLA_CSC_SG_wt_fifo_flopram_rwsa_4x20",
+        "fRUEU",
+        "module"
+    ],
+    "NV_NVDLA_CSC_WL_dec": [
+        "NV_NVDLA_CSC_WL_dec",
+        "t4CAU",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_sum": [
+        "NV_NVDLA_CDP_DP_sum",
+        "MqSdZ",
+        "module"
+    ],
+    "NV_NVDLA_CSC_dual_reg": [
+        "NV_NVDLA_CSC_dual_reg",
+        "UpGrW",
+        "module"
+    ],
+    "RAMDP_256X7_GL_M2_E2": [
+        "RAMDP_256X7_GL_M2_E2",
+        "N6iVi",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_pipe_p1",
+        "wH8EY",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_cfg": [
+        "NV_NVDLA_CMAC_CORE_cfg",
+        "TR9R6",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_INT_RELU_pipe_p1": [
+        "NV_NVDLA_SDP_HLS_X_INT_RELU_pipe_p1",
+        "KfPzy",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_mac": [
+        "NV_NVDLA_CMAC_CORE_mac",
+        "Uk5dE",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_INT_TRT_pipe_p1": [
+        "NV_NVDLA_SDP_HLS_X_INT_TRT_pipe_p1",
+        "Dt57S",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_rt_in": [
+        "NV_NVDLA_CMAC_CORE_rt_in",
+        "bcyPS",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_rt_out": [
+        "NV_NVDLA_CMAC_CORE_rt_out",
+        "hMrdv",
+        "module"
+    ],
+    "NV_NVDLA_DMAIF_rdrsp": [
+        "NV_NVDLA_DMAIF_rdrsp",
+        "nuIxD",
+        "module"
+    ],
+    "nv_ram_rwsp_80x14_logic": [
+        "nv_ram_rwsp_80x14_logic",
+        "Na1rR",
+        "module"
+    ],
+    "NV_NVDLA_CMAC_CORE_slcg": [
+        "NV_NVDLA_CMAC_CORE_slcg",
+        "kA7JI",
+        "module"
+    ],
+    "nv_ram_rws_16x64": [
+        "nv_ram_rws_16x64",
+        "HeHit",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000E": [
+        "ScanShareSel_JTAG_reg_ext_cg_000E",
+        "vpfkm",
+        "module"
+    ],
+    "NV_NVDLA_CACC_CALC_int8": [
+        "NV_NVDLA_CACC_CALC_int8",
+        "jeuHS",
+        "module"
+    ],
+    "RAMPDP_80X66_GL_M1_D2_ram": [
+        "RAMPDP_80X66_GL_M1_D2_ram",
+        "jAGYU",
+        "module"
+    ],
+    "NV_NVDLA_CACC_single_reg": [
+        "NV_NVDLA_CACC_single_reg",
+        "A5BFi",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_CMD_sfifo_flopram_rwsa_4x15": [
+        "NV_NVDLA_SDP_WDMA_CMD_sfifo_flopram_rwsa_4x15",
+        "Wqb71",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CORE_pack_0000": [
+        "NV_NVDLA_SDP_CORE_pack_0000",
+        "EjLB9",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_ig": [
+        "NV_NVDLA_SDP_RDMA_ig",
+        "NASaJ",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_eg": [
+        "NV_NVDLA_CDP_RDMA_eg",
+        "ANdTL",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CORE_unpack_0000": [
+        "NV_NVDLA_SDP_CORE_unpack_0000",
+        "gQ4Ir",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CORE_unpack_0001": [
+        "NV_NVDLA_SDP_CORE_unpack_0001",
+        "S4hsF",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_c": [
+        "NV_NVDLA_SDP_HLS_c",
+        "STUhC",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_x1_int": [
+        "NV_NVDLA_SDP_HLS_x1_int",
+        "hswnL",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_x2_int": [
+        "NV_NVDLA_SDP_HLS_x2_int",
+        "JSYV5",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_pack_0000_0000": [
+        "NV_NVDLA_SDP_RDMA_pack_0000_0000",
+        "F8Ytc",
+        "module"
+    ],
+    "NV_NVDLA_SDP_REG_single": [
+        "NV_NVDLA_SDP_REG_single",
+        "ZJBA5",
+        "module"
+    ],
+    "NV_NVDLA_SDP_REG_dual": [
+        "NV_NVDLA_SDP_REG_dual",
+        "zp2bG",
+        "module"
+    ],
+    "nv_ram_rws_16x256": [
+        "nv_ram_rws_16x256",
+        "MUkan",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_EG_RO_dfifo": [
+        "NV_NVDLA_SDP_RDMA_EG_RO_dfifo",
+        "ZtcDY",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_cmd": [
+        "NV_NVDLA_SDP_WDMA_cmd",
+        "DWMc8",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_reg": [
+        "NV_NVDLA_CDP_RDMA_reg",
+        "QuY03",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_dat": [
+        "NV_NVDLA_SDP_WDMA_dat",
+        "e6vtI",
+        "module"
+    ],
+    "NV_NVDLA_SDP_nrdma": [
+        "NV_NVDLA_SDP_nrdma",
+        "f9sKf",
+        "module"
+    ],
+    "NV_NVDLA_SDP_cmux": [
+        "NV_NVDLA_SDP_cmux",
+        "G1R9v",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CMUX_pipe_p1": [
+        "NV_NVDLA_SDP_CMUX_pipe_p1",
+        "JpZRc",
+        "module"
+    ],
+    "NV_NVDLA_SDP_CMUX_pipe_p2": [
+        "NV_NVDLA_SDP_CMUX_pipe_p2",
+        "sahJV",
+        "module"
+    ],
+    "HLS_cdp_ICVT_pipe_p1": [
+        "HLS_cdp_ICVT_pipe_p1",
+        "bz1K8",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_REG_single": [
+        "NV_NVDLA_SDP_RDMA_REG_single",
+        "eaneH",
+        "module"
+    ],
+    "NV_NVDLA_sync3d_c": [
+        "NV_NVDLA_sync3d_c",
+        "Q4zEY",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_ig": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_ig",
+        "Sc4MY",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0007": [
+        "ScanShareSel_JTAG_reg_ext_cg_0007",
+        "Ymfh0",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_C_INT_pipe_p1": [
+        "NV_NVDLA_SDP_HLS_C_INT_pipe_p1",
+        "SA7uB",
+        "module"
+    ],
+    "NV_NVDLA_GLB_CSB_reg": [
+        "NV_NVDLA_GLB_CSB_reg",
+        "km1e5",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_eg": [
+        "NV_NVDLA_NOCIF_DRAM_READ_eg",
+        "uGyLy",
+        "module"
+    ],
+    "NV_NVDLA_DMAIF_wr": [
+        "NV_NVDLA_DMAIF_wr",
+        "xgmpQ",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_pipe_p2": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_pipe_p2",
+        "zE6iL",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_EG_ro_fifo_flopram_rwsa_4x257": [
+        "NV_NVDLA_NOCIF_DRAM_READ_EG_ro_fifo_flopram_rwsa_4x257",
+        "efZmH",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_ig": [
+        "NV_NVDLA_NOCIF_DRAM_READ_ig",
+        "eMtjv",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_eg": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_eg",
+        "HMGVk",
+        "module"
+    ],
+    "NV_NVDLA_PDP_cal1d_info_fifo": [
+        "NV_NVDLA_PDP_cal1d_info_fifo",
+        "UuUK8",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_CMD_dfifo": [
+        "NV_NVDLA_SDP_MRDMA_EG_CMD_dfifo",
+        "ZtzJx",
+        "module"
+    ],
+    "NV_NVDLA_PDP_cal1d_info_fifo_flopram_rwsa_8x12": [
+        "NV_NVDLA_PDP_cal1d_info_fifo_flopram_rwsa_8x12",
+        "rLehA",
+        "module"
+    ],
+    "nv_ram_rwsp_80x65_logic": [
+        "nv_ram_rwsp_80x65_logic",
+        "HAfnU",
+        "module"
+    ],
+    "NV_NVDLA_PDP_CORE_preproc": [
+        "NV_NVDLA_PDP_CORE_preproc",
+        "PQth9",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_cq_flopram_rwsa_16x18": [
+        "NV_NVDLA_PDP_RDMA_cq_flopram_rwsa_16x18",
+        "fctSP",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_ro_fifo_flopram_rwsa_4x8": [
+        "NV_NVDLA_PDP_RDMA_ro_fifo_flopram_rwsa_4x8",
+        "p5bhG",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_ig": [
+        "NV_NVDLA_PDP_RDMA_ig",
+        "sEfhV",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_REG_dual": [
+        "NV_NVDLA_CDP_RDMA_REG_dual",
+        "rPfFW",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_reg": [
+        "NV_NVDLA_PDP_RDMA_reg",
+        "CVix5",
+        "module"
+    ],
+    "NV_NVDLA_PDP_REG_single": [
+        "NV_NVDLA_PDP_REG_single",
+        "gENAz",
+        "module"
+    ],
+    "NV_NVDLA_PDP_WDMA_dat": [
+        "NV_NVDLA_PDP_WDMA_dat",
+        "zZjz5",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_cvtin": [
+        "NV_NVDLA_CDP_DP_cvtin",
+        "L1ChN",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_lat_fifo": [
+        "NV_NVDLA_CDP_RDMA_lat_fifo",
+        "Psws9",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTOUT_pipe_p1": [
+        "NV_NVDLA_CDP_DP_CVTOUT_pipe_p1",
+        "yUQze",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTOUT_pipe_p2": [
+        "NV_NVDLA_CDP_DP_CVTOUT_pipe_p2",
+        "huJT5",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftrightsatsu": [
+        "NV_NVDLA_HLS_shiftrightsatsu",
+        "w5euS",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_CVTOUT_pipe_p4": [
+        "NV_NVDLA_CDP_DP_CVTOUT_pipe_p4",
+        "vu9it",
+        "module"
+    ],
+    "vram_RAMDP_16X272_GL_M1_E2_0000": [
+        "vram_RAMDP_16X272_GL_M1_E2_0000",
+        "qf6n0",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_lut": [
+        "NV_NVDLA_CDP_DP_lut",
+        "A9kv8",
+        "module"
+    ],
+    "vram_RAMDP_128X11_GL_M2_E2_0000": [
+        "vram_RAMDP_128X11_GL_M2_E2_0000",
+        "JEuAI",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0004": [
+        "ScanShareSel_JTAG_reg_ext_cg_0004",
+        "gH77r",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_mul": [
+        "NV_NVDLA_CDP_DP_mul",
+        "pf8Ah",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_syncfifo": [
+        "NV_NVDLA_CDP_DP_syncfifo",
+        "zIuL8",
+        "module"
+    ],
+    "nv_ram_rws_16x64_logic": [
+        "nv_ram_rws_16x64_logic",
+        "rN80Z",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_data_fifo": [
+        "NV_NVDLA_CDP_DP_data_fifo",
+        "rMLFd",
+        "module"
+    ],
+    "nv_ram_rwsp_8x65": [
+        "nv_ram_rwsp_8x65",
+        "jSqBn",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_sumpd_fifo": [
+        "NV_NVDLA_CDP_DP_sumpd_fifo",
+        "Hpmqm",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_cq": [
+        "NV_NVDLA_CDP_RDMA_cq",
+        "Sr0ru",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftrightsu_0001": [
+        "NV_NVDLA_HLS_shiftrightsu_0001",
+        "mxzBz",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_cq_flopram_rwsa_32x7": [
+        "NV_NVDLA_CDP_RDMA_cq_flopram_rwsa_32x7",
+        "SSWiH",
+        "module"
+    ],
+    "NV_NVDLA_CDP_REG_dual": [
+        "NV_NVDLA_CDP_REG_dual",
+        "wbjUt",
+        "module"
+    ],
+    "nv_ram_rws_16x272": [
+        "nv_ram_rws_16x272",
+        "qDJN8",
+        "module"
+    ],
+    "int_sum_block_tp1": [
+        "int_sum_block_tp1",
+        "tFDQx",
+        "module"
+    ],
+    "AN2D4PO4": [
+        "AN2D4PO4",
+        "jn0Et",
+        "module"
+    ],
+    "MUX2D4": [
+        "MUX2D4",
+        "x98Yt",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_ARB_pipe_p1",
+        "aq53v",
+        "module"
+    ],
+    "NV_BLKBOX_SINK": [
+        "NV_BLKBOX_SINK",
+        "E3eqU",
+        "module"
+    ],
+    "NV_CLK_gate_power": [
+        "NV_CLK_gate_power",
+        "e33YR",
+        "module"
+    ],
+    "OR2D1": [
+        "OR2D1",
+        "IDyhj",
+        "module"
+    ],
+    "sync3d_c_ppp": [
+        "sync3d_c_ppp",
+        "sjPKZ",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_ig": [
+        "NV_NVDLA_SDP_MRDMA_ig",
+        "Kks7w",
+        "module"
+    ],
+    "oneHotClk_async_read_clock": [
+        "oneHotClk_async_read_clock",
+        "DUQn4",
+        "module"
+    ],
+    "oneHotClk_async_write_clock": [
+        "oneHotClk_async_write_clock",
+        "UCcMV",
+        "module"
+    ],
+    "vram_RAMDP_60X22_GL_M1_E2_0000": [
+        "vram_RAMDP_60X22_GL_M1_E2_0000",
+        "aWknU",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_DAT_out": [
+        "NV_NVDLA_SDP_WDMA_DAT_out",
+        "yNZZG",
+        "module"
+    ],
+    "p_SSYNC2DO_C_PP": [
+        "p_SSYNC2DO_C_PP",
+        "f6jHD",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_16X256_GL_M1_E2": [
+        "RAM_BANK_RAMDP_16X256_GL_M1_E2",
+        "MxgYQ",
+        "module"
+    ],
+    "p_SSYNC3DO": [
+        "p_SSYNC3DO",
+        "GstVx",
+        "module"
+    ],
+    "p_SSYNC3DO_S_PPP": [
+        "p_SSYNC3DO_S_PPP",
+        "uTEtZ",
+        "module"
+    ],
+    "read_eg_arb": [
+        "read_eg_arb",
+        "asiks",
+        "module"
+    ],
+    "CKLNQD12PO4": [
+        "CKLNQD12PO4",
+        "ts32I",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_fifo": [
+        "NV_NVDLA_CDMA_IMG_fifo",
+        "u3SVH",
+        "module"
+    ],
+    "NV_NVDLA_CDMA_IMG_sg2pack_fifo_flopram_rwsa_128x11": [
+        "NV_NVDLA_CDMA_IMG_sg2pack_fifo_flopram_rwsa_128x11",
+        "m2jh2",
+        "module"
+    ],
+    "NV_NVDLA_SDP_BRDMA_gate": [
+        "NV_NVDLA_SDP_BRDMA_gate",
+        "k1ryz",
+        "module"
+    ],
+    "RAMPDP_80X66_GL_M1_D2": [
+        "RAMPDP_80X66_GL_M1_D2",
+        "kPz5D",
+        "module"
+    ],
+    "NV_NVDLA_SDP_BRDMA_lat_fifo": [
+        "NV_NVDLA_SDP_BRDMA_lat_fifo",
+        "Z1u3P",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_C_INT_pipe_p2": [
+        "NV_NVDLA_SDP_HLS_C_INT_pipe_p2",
+        "DcG9n",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_C_INT_pipe_p3": [
+        "NV_NVDLA_SDP_HLS_C_INT_pipe_p3",
+        "ZFu8M",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_80X15_GL_M2_E2": [
+        "RAM_BANK_RAMDP_80X15_GL_M2_E2",
+        "MLBWf",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_bpt": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_bpt",
+        "LFiIn",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_C_INT_pipe_p4": [
+        "NV_NVDLA_SDP_HLS_C_INT_pipe_p4",
+        "Ugcsc",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_int_mul": [
+        "NV_NVDLA_SDP_HLS_X_int_mul",
+        "daRss",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_INT_MUL_pipe_p1": [
+        "NV_NVDLA_SDP_HLS_X_INT_MUL_pipe_p1",
+        "UJk3h",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_int_relu": [
+        "NV_NVDLA_SDP_HLS_X_int_relu",
+        "bYaLa",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_X_int_trt": [
+        "NV_NVDLA_SDP_HLS_X_int_trt",
+        "Twt5e",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_cq": [
+        "NV_NVDLA_SDP_MRDMA_cq",
+        "RSvJa",
+        "module"
+    ],
+    "RAMDP_80X9_GL_M2_E2": [
+        "RAMDP_80X9_GL_M2_E2",
+        "fKnS8",
+        "module"
+    ],
+    "nv_ram_rwst_256x8_logic": [
+        "nv_ram_rwst_256x8_logic",
+        "Npurw",
+        "module"
+    ],
+    "vram_RAMDP_16X64_GL_M1_E2_0000": [
+        "vram_RAMDP_16X64_GL_M1_E2_0000",
+        "zDmBa",
+        "module"
+    ],
+    "RAMPDP_256X64_GL_M2_D2": [
+        "RAMPDP_256X64_GL_M2_D2",
+        "hj39b",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_eg": [
+        "NV_NVDLA_SDP_MRDMA_eg",
+        "P6Ck5",
+        "module"
+    ],
+    "RAMPDP_160X16_GL_M2_D2_ram": [
+        "RAMPDP_160X16_GL_M2_D2_ram",
+        "RkTQR",
+        "module"
+    ],
+    "NV_NVDLA_SDP_NRDMA_lat_fifo": [
+        "NV_NVDLA_SDP_NRDMA_lat_fifo",
+        "cCPMS",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_eg": [
+        "NV_NVDLA_SDP_RDMA_eg",
+        "nAnYF",
+        "module"
+    ],
+    "NV_NVDLA_SDP_WDMA_DAT_IN_dfifo": [
+        "NV_NVDLA_SDP_WDMA_DAT_IN_dfifo",
+        "K5YaH",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_arb": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_arb",
+        "dTnrP",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_BPT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_BPT_pipe_p1",
+        "L0kjt",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_BPT_pipe_p2": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_BPT_pipe_p2",
+        "DbGPL",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_cvt": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_cvt",
+        "fwiHf",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_CVT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_CVT_pipe_p1",
+        "jyxBY",
+        "module"
+    ],
+    "nv_ram_rwsp_128x11_logic": [
+        "nv_ram_rwsp_128x11_logic",
+        "wtuBK",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_READ_IG_SPT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_READ_IG_SPT_pipe_p1",
+        "jSUNB",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_160X65_GL_M2_D2": [
+        "RAM_BANK_RAMPDP_160X65_GL_M2_D2",
+        "nsr9R",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_arb": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_arb",
+        "dUsQs",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p1",
+        "R6Hx7",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p2": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_pipe_p2",
+        "qHRSH",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_dfifo": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_dfifo",
+        "GG5gN",
+        "module"
+    ],
+    "p_SDFCNQD1PO4": [
+        "p_SDFCNQD1PO4",
+        "fuGhw",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftrightsu_0002": [
+        "NV_NVDLA_HLS_shiftrightsu_0002",
+        "IuqTa",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_dfifo_flopram_rwsa_ram": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_BPT_dfifo_flopram_rwsa_ram",
+        "Y6BS7",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p1": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p1",
+        "Sc7dY",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p2": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p2",
+        "ah3Bz",
+        "module"
+    ],
+    "nv_ram_rwsp_160x65_logic": [
+        "nv_ram_rwsp_160x65_logic",
+        "VIniI",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_din": [
+        "NV_NVDLA_SDP_MRDMA_EG_din",
+        "DZjQ8",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p3": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_CVT_pipe_p3",
+        "FZ68B",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_spt": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_spt",
+        "kRq59",
+        "module"
+    ],
+    "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_dfifo": [
+        "NV_NVDLA_NOCIF_DRAM_WRITE_IG_SPT_dfifo",
+        "jhSzp",
+        "module"
+    ],
+    "NV_NVDLA_PDP_CORE_unit1d": [
+        "NV_NVDLA_PDP_CORE_unit1d",
+        "gkSTs",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_lat_fifo": [
+        "NV_NVDLA_SDP_MRDMA_EG_lat_fifo",
+        "k4j8I",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_REG_dual": [
+        "NV_NVDLA_PDP_RDMA_REG_dual",
+        "uJAv1",
+        "module"
+    ],
+    "NV_NVDLA_PDP_RDMA_REG_single": [
+        "NV_NVDLA_PDP_RDMA_REG_single",
+        "dfnzC",
+        "module"
+    ],
+    "nv_ram_rwsthp_60x21": [
+        "nv_ram_rwsthp_60x21",
+        "UFHvG",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_LUT_CTRL_unit": [
+        "NV_NVDLA_CDP_DP_LUT_CTRL_unit",
+        "Zpvbd",
+        "module"
+    ],
+    "nv_ram_rwsthp_80x9": [
+        "nv_ram_rwsthp_80x9",
+        "BqUez",
+        "module"
+    ],
+    "NV_NVDLA_CDP_DP_MUL_unit": [
+        "NV_NVDLA_CDP_DP_MUL_unit",
+        "uZKJ7",
+        "module"
+    ],
+    "NV_NVDLA_CDP_RDMA_REG_single": [
+        "NV_NVDLA_CDP_RDMA_REG_single",
+        "zMr4V",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_pfifo": [
+        "NV_NVDLA_SDP_MRDMA_EG_pfifo",
+        "PgjZP",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_256X64_GL_M2_D2": [
+        "RAM_BANK_RAMPDP_256X64_GL_M2_D2",
+        "siYII",
+        "module"
+    ],
+    "nv_ram_rws_128x18": [
+        "nv_ram_rws_128x18",
+        "G3BN6",
+        "module"
+    ],
+    "nv_ram_rws_256x3": [
+        "nv_ram_rws_256x3",
+        "ARqpA",
+        "module"
+    ],
+    "nv_ram_rwsp_128x6": [
+        "nv_ram_rwsp_128x6",
+        "u70mn",
+        "module"
+    ],
+    "nv_ram_rwst_256x8": [
+        "nv_ram_rwst_256x8",
+        "zdyTm",
+        "module"
+    ],
+    "nv_ram_rwsthp_19x4": [
+        "nv_ram_rwsthp_19x4",
+        "fq4VW",
+        "module"
+    ],
+    "nv_ram_rwsp_160x16": [
+        "nv_ram_rwsp_160x16",
+        "k7Vb4",
+        "module"
+    ],
+    "nv_ram_rwsthp_80x15": [
+        "nv_ram_rwsthp_80x15",
+        "btRMb",
+        "module"
+    ],
+    "CKLNQD12": [
+        "CKLNQD12",
+        "GUvk9",
+        "module"
+    ],
+    "HLS_cdp_icvt": [
+        "HLS_cdp_icvt",
+        "Tke51",
+        "module"
+    ],
+    "HLS_cdp_ICVT_pipe_p2": [
+        "HLS_cdp_ICVT_pipe_p2",
+        "SSTLW",
+        "module"
+    ],
+    "HLS_cdp_ICVT_pipe_p3": [
+        "HLS_cdp_ICVT_pipe_p3",
+        "TmgrQ",
+        "module"
+    ],
+    "HLS_cdp_OCVT_pipe_p2": [
+        "HLS_cdp_OCVT_pipe_p2",
+        "Dne6S",
+        "module"
+    ],
+    "HLS_cdp_OCVT_pipe_p3": [
+        "HLS_cdp_OCVT_pipe_p3",
+        "iCEZD",
+        "module"
+    ],
+    "LNQD1PO4": [
+        "LNQD1PO4",
+        "SW0YW",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_EG_ro": [
+        "NV_NVDLA_SDP_RDMA_EG_ro",
+        "S5vjt",
+        "module"
+    ],
+    "NV_NVDLA_HLS_saturate": [
+        "NV_NVDLA_HLS_saturate",
+        "Jjxkm",
+        "module"
+    ],
+    "NV_NVDLA_HLS_saturate_0000": [
+        "NV_NVDLA_HLS_saturate_0000",
+        "exeYS",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_128X11_GL_M2_E2": [
+        "RAM_BANK_RAMDP_128X11_GL_M2_E2",
+        "kWLGw",
+        "module"
+    ],
+    "write_ig_arb": [
+        "write_ig_arb",
+        "RSMTK",
+        "module"
+    ],
+    "NV_NVDLA_HLS_shiftrightsu": [
+        "NV_NVDLA_HLS_shiftrightsu",
+        "cGw7K",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0000": [
+        "ScanShareSel_JTAG_reg_ext_cg_0000",
+        "YqLrh",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0001": [
+        "ScanShareSel_JTAG_reg_ext_cg_0001",
+        "dkCPK",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0002": [
+        "ScanShareSel_JTAG_reg_ext_cg_0002",
+        "M5QUT",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0008": [
+        "ScanShareSel_JTAG_reg_ext_cg_0008",
+        "bQzPS",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0005": [
+        "ScanShareSel_JTAG_reg_ext_cg_0005",
+        "Yfup7",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_0009": [
+        "ScanShareSel_JTAG_reg_ext_cg_0009",
+        "GRgup",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000B": [
+        "ScanShareSel_JTAG_reg_ext_cg_000B",
+        "hfg9v",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000C": [
+        "ScanShareSel_JTAG_reg_ext_cg_000C",
+        "YnuEa",
+        "module"
+    ],
+    "ScanShareSel_JTAG_reg_ext_cg_000F": [
+        "ScanShareSel_JTAG_reg_ext_cg_000F",
+        "ziCu9",
+        "module"
+    ],
+    "p_SSYNC3DO_C_PPP": [
+        "p_SSYNC3DO_C_PPP",
+        "cQeyx",
+        "module"
+    ],
+    "sync2d_c_pp": [
+        "sync2d_c_pp",
+        "kVIxK",
+        "module"
+    ],
+    "RAMPDP_160X65_GL_M2_D2_ram": [
+        "RAMPDP_160X65_GL_M2_D2_ram",
+        "hxN9u",
+        "module"
+    ],
+    "read_ig_arb": [
+        "read_ig_arb",
+        "Lzp4I",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_prelu": [
+        "NV_NVDLA_SDP_HLS_prelu",
+        "B6ZcI",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_relu": [
+        "NV_NVDLA_SDP_HLS_relu",
+        "f5v6x",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_sync2data": [
+        "NV_NVDLA_SDP_HLS_sync2data",
+        "kEzJb",
+        "module"
+    ],
+    "NV_NVDLA_SDP_HLS_sync2data_0000": [
+        "NV_NVDLA_SDP_HLS_sync2data_0000",
+        "qayAj",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_cmd": [
+        "NV_NVDLA_SDP_MRDMA_EG_cmd",
+        "TMBIv",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_CMD_dfifo_flopram_rwsa_4x15": [
+        "NV_NVDLA_SDP_MRDMA_EG_CMD_dfifo_flopram_rwsa_4x15",
+        "pdp5e",
+        "module"
+    ],
+    "NV_NVDLA_SDP_MRDMA_EG_dout": [
+        "NV_NVDLA_SDP_MRDMA_EG_dout",
+        "wkcEV",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_EG_RO_pipe_p1": [
+        "NV_NVDLA_SDP_RDMA_EG_RO_pipe_p1",
+        "F0g3d",
+        "module"
+    ],
+    "NV_NVDLA_SDP_RDMA_EG_RO_cfifo": [
+        "NV_NVDLA_SDP_RDMA_EG_RO_cfifo",
+        "VbyTx",
+        "module"
+    ],
+    "RAMDP_16X256_GL_M1_E2": [
+        "RAMDP_16X256_GL_M1_E2",
+        "we6Nf",
+        "module"
+    ],
+    "vram_RAMDP_16X256_GL_M1_E2_0000": [
+        "vram_RAMDP_16X256_GL_M1_E2_0000",
+        "v0Snw",
+        "module"
+    ],
+    "RAMDP_16X272_GL_M1_E2": [
+        "RAMDP_16X272_GL_M1_E2",
+        "jwTFV",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_16X272_GL_M1_E2": [
+        "RAM_BANK_RAMDP_16X272_GL_M1_E2",
+        "n310t",
+        "module"
+    ],
+    "RAMDP_16X64_GL_M1_E2": [
+        "RAMDP_16X64_GL_M1_E2",
+        "eZexP",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_16X64_GL_M1_E2": [
+        "RAM_BANK_RAMDP_16X64_GL_M1_E2",
+        "C0A1g",
+        "module"
+    ],
+    "nv_ram_rws_128x18_logic": [
+        "nv_ram_rws_128x18_logic",
+        "au4Mp",
+        "module"
+    ],
+    "nv_ram_rws_256x3_logic": [
+        "nv_ram_rws_256x3_logic",
+        "vi394",
+        "module"
+    ],
+    "nv_ram_rws_256x7_logic": [
+        "nv_ram_rws_256x7_logic",
+        "Tmbgd",
+        "module"
+    ],
+    "nv_ram_rwsp_128x11": [
+        "nv_ram_rwsp_128x11",
+        "BwgTY",
+        "module"
+    ],
+    "nv_ram_rwsp_128x6_logic": [
+        "nv_ram_rwsp_128x6_logic",
+        "FgS2c",
+        "module"
+    ],
+    "nv_ram_rwsp_61x65_logic": [
+        "nv_ram_rwsp_61x65_logic",
+        "yJ0cx",
+        "module"
+    ],
+    "nv_ram_rwsp_80x14": [
+        "nv_ram_rwsp_80x14",
+        "TLfsr",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_80X14_GL_M2_E2": [
+        "RAM_BANK_RAMDP_80X14_GL_M2_E2",
+        "cqCCj",
+        "module"
+    ],
+    "nv_ram_rwsthp_80x15_logic": [
+        "nv_ram_rwsthp_80x15_logic",
+        "xpi65",
+        "module"
+    ],
+    "NV_BLKBOX_BUFFER": [
+        "NV_BLKBOX_BUFFER",
+        "eYcbr",
+        "module"
+    ],
+    "RAMDP_128X6_GL_M2_E2": [
+        "RAMDP_128X6_GL_M2_E2",
+        "ZYYte",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_128X6_GL_M2_E2": [
+        "RAM_BANK_RAMDP_128X6_GL_M2_E2",
+        "aVkYU",
+        "module"
+    ],
+    "vram_RAMDP_128X6_GL_M2_E2_0000": [
+        "vram_RAMDP_128X6_GL_M2_E2_0000",
+        "eJ7wW",
+        "module"
+    ],
+    "vram_RAMDP_256X4_GL_M2_E2_0000": [
+        "vram_RAMDP_256X4_GL_M2_E2_0000",
+        "HHpDc",
+        "module"
+    ],
+    "vram_RAMDP_256X7_GL_M2_E2_0000": [
+        "vram_RAMDP_256X7_GL_M2_E2_0000",
+        "NEf2F",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_256X8_GL_M2_E2": [
+        "RAM_BANK_RAMDP_256X8_GL_M2_E2",
+        "mmxVa",
+        "module"
+    ],
+    "vram_RAMDP_256X8_GL_M2_E2_0000": [
+        "vram_RAMDP_256X8_GL_M2_E2_0000",
+        "FQzb5",
+        "module"
+    ],
+    "RAMDP_60X22_GL_M1_E2": [
+        "RAMDP_60X22_GL_M1_E2",
+        "HcIzV",
+        "module"
+    ],
+    "RAM_BANK_RAMDP_60X22_GL_M1_E2": [
+        "RAM_BANK_RAMDP_60X22_GL_M1_E2",
+        "d8np9",
+        "module"
+    ],
+    "vram_RAMDP_80X15_GL_M2_E2_0000": [
+        "vram_RAMDP_80X15_GL_M2_E2_0000",
+        "kD8Rq",
+        "module"
+    ],
+    "vram_RAMDP_80X9_GL_M2_E2_0000": [
+        "vram_RAMDP_80X9_GL_M2_E2_0000",
+        "fmg2s",
+        "module"
+    ],
+    "RAMPDP_128X18_GL_M2_D2": [
+        "RAMPDP_128X18_GL_M2_D2",
+        "kEzzE",
+        "module"
+    ],
+    "RAMPDP_64X66_GL_M1_D2": [
+        "RAMPDP_64X66_GL_M1_D2",
+        "rEJMC",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_64X66_GL_M1_D2": [
+        "RAM_BANK_RAMPDP_64X66_GL_M1_D2",
+        "KcBu7",
+        "module"
+    ],
+    "RAMPDP_64X66_GL_M1_D2_ram": [
+        "RAMPDP_64X66_GL_M1_D2_ram",
+        "uQs9K",
+        "module"
+    ],
+    "nv_ram_rwsp_160x16_logic": [
+        "nv_ram_rwsp_160x16_logic",
+        "Cpvvd",
+        "module"
+    ],
+    "nv_ram_rwsp_80x65": [
+        "nv_ram_rwsp_80x65",
+        "wntCG",
+        "module"
+    ],
+    "RAMDP_80X14_GL_M2_E2": [
+        "RAMDP_80X14_GL_M2_E2",
+        "mmhGQ",
+        "module"
+    ],
+    "RAM_BANK_RAMPDP_160X16_GL_M2_D2": [
+        "RAM_BANK_RAMPDP_160X16_GL_M2_D2",
+        "Zh963",
+        "module"
+    ],
+    "RAMPDP_160X65_GL_M2_D2": [
+        "RAMPDP_160X65_GL_M2_D2",
+        "KIRrT",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ]
+}

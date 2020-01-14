@@ -1,0 +1,6 @@
+7
+1593850778
+/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/nvdla_top_sc_adapter/nvdla_top_sc_adapter.v 
++v2k -sverilog -work DEFAULT -full64 -q /home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/nvdla_top_sc_adapter/nvdla_top_sc_adapter.v
+   /cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/linux64/bin/vcs1 -Mcc=/home/kcchang/gcc-4.8.3/DEST/bin/gcc -Mcplusplus=g++ -Masflags= -Mcfl=' -pipe -O -I/cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/include ' -Mldflags=" -Wl,-E,-rpath /cadtools/synopsys/vcs_mx/L-2016.06-SP2-6/suse64/lib " -Mout=simv -Mamsrun="" -Mvcsaceobjs="" -Mobjects=" " -Msaverestoreobj= -Mcrt0="" -Mcrtn="" -Mcsrc="" -Msyslibs="-lncurses -L/usr/X11R6/lib64 -lX11 -ldl -ldl "
+-Xvlogan=0x1 +v2k -sverilog  -work=DEFAULT -full64 -q  "/home/kcchang/nvdla_master/hw/outdir/nv_small/verif/testbench/trace_player/csrc/sysc/nvdla_top_sc_adapter/nvdla_top_sc_adapter.v"  +mixedhdl2    

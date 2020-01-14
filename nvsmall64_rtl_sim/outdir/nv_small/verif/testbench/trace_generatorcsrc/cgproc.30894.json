@@ -1,0 +1,156 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "_vcs_DPI_package": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "vcs_paramclassrepository": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "nvdla_resource_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "$dummyOvSvModule": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "csb_interface": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "nvdla_coverage_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "_vcs_unit__2328712441": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "csb_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "uvm_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "surface_generator_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "nvdla_tg_top": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "mem_man_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "ordt_uvm_reg_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "nvdla_ral_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        },
+        "nvdla_scenario_pkg": {
+            "Compiled": "Yes",
+            "Compiled Times": 7
+        }
+    },
+    "CompUnits": {},
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "svLpx_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "UJbge_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "BiPSj_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "hEeZs_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "JL0AA_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "zr7M1_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "QAfa9_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "reYIK_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "uM9F1_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "L5Fv3_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "LLLRf_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "vNgGy_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "T2Tj4_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "hr2J7_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "jwQbS_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        },
+        "VEbNQ_d": {
+            "icPath": "../../../outdir/nv_small/verif/testbench/trace_generatorcsrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 605818,
+            "archive": "archive.6/_30894_archive_1.a",
+            "objects": [
+                [
+                    "amcQwB.o",
+                    605818
+                ]
+            ]
+        }
+    ],
+    "stat": {
+        "ru_childs_end": {
+            "ru_nivcsw": 74,
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_nvcsw": 17,
+            "ru_stime_sec": 0.0040000000000000001,
+            "ru_minflt": 630,
+            "ru_maxrss_kb": 166084
+        },
+        "ru_self_end": {
+            "ru_nivcsw": 18830,
+            "ru_majflt": 0,
+            "ru_utime_sec": 30.485904999999999,
+            "ru_nvcsw": 1146,
+            "ru_stime_sec": 1.1720729999999999,
+            "ru_minflt": 89656,
+            "ru_maxrss_kb": 236800
+        },
+        "peak_mem_kb": 397488
+    }
+}

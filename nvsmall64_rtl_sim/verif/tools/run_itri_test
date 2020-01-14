@@ -1,0 +1,17 @@
+#!
+
+if ( $# != 2 ) then
+   echo "Error!! use: run_itri_test nv_small script_name"
+   goto quit
+endif
+
+echo "model=$1, script=$2"
+rm -r $2
+cp -r ../verif/tests/trace_tests/$1/$2 .
+cd $2
+
+ncverilog -f ../../itri_verif/run_$1.f +CFG_FILE=$2.cfg
+cp -f ncverilog.log ../ncverilog.log
+
+quit:
+cd ..
